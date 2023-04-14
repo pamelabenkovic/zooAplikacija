@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaaplikacijazoo.MenuBarController">
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="Users">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#onUserSearchButtonClick" text="Search" />
+                  <MenuItem mnemonicParsing="false" onAction="#onInsertUserButtonClick" text="Insert" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Animals">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#onAnimalSearchButtonClick" text="Search" />
+                  <MenuItem mnemonicParsing="false" onAction="#onInsertAnimalButtonClick" text="Insert" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Receipts">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#onReceiptSearchButtonClick" text="Search" />
+                  <MenuItem mnemonicParsing="false" onAction="#onInsertReceiptButtonClick" text="Insert" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Zoos">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#onZooSearchButtonClick" text="Search" />
+                  <MenuItem mnemonicParsing="false" onAction="#onInsertZooButtonClick" text="Insert" />
+                  <MenuItem mnemonicParsing="false" onAction="#onInsertZooZivotinjeButtonClick" text="Insert animals to a zoo" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
